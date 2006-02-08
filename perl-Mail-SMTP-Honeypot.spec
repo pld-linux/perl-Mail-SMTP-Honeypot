@@ -17,10 +17,10 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
-BuildRequires:	perl(Net::NBsocket) >= 0.11
-BuildRequires:	perl(Proc::PidUtil) >= 0.07
 BuildRequires:	perl-Net-DNS-Codes >= 0.08
 BuildRequires:	perl-Net-DNS-ToolKit >= 0.24
+BuildRequires:	perl-Net-NBsocket >= 0.11
+BuildRequires:	perl-Proc-PidUtil >= 0.07
 BuildRequires:	perl-Sys-Hostname-FQDN >= 0.07
 BuildRequires:	perl-Unix-Syslog >= 0.97
 %endif
