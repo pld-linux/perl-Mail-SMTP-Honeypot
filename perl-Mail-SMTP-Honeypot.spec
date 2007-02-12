@@ -6,7 +6,7 @@
 %define	pdir	Mail
 %define	pnam	SMTP-Honeypot
 Summary:	Mail::SMTP::Honeypot - Dummy mail server
-Summary(pl):	Mail::SMTP::Honeypot - fa≥szywy serwer poczty
+Summary(pl.UTF-8):   Mail::SMTP::Honeypot - fa≈Çszywy serwer poczty
 Name:		perl-Mail-SMTP-Honeypot
 Version:	0.01
 Release:	0.1
@@ -36,14 +36,14 @@ with a temporary failure.
 The purpose of this module is to provide a spam sink on a tertiary MX
 host.
 
-%description -l pl
-Mail::SMTP::Honeypot to modu≥ Perla udaj±cy, øe jest w pe≥ni
-funkcjonalnym standardowym serwerem SMTP z wyj±tkiem tego, øe po
-wykryciu okre∂lonego stanu polecenia (domy∂lnie DATA) przerywa
-po≥±czenie z tymczasowym niepowodzeniem.
+%description -l pl.UTF-8
+Mail::SMTP::Honeypot to modu≈Ç Perla udajƒÖcy, ≈ºe jest w pe≈Çni
+funkcjonalnym standardowym serwerem SMTP z wyjƒÖtkiem tego, ≈ºe po
+wykryciu okre≈õlonego stanu polecenia (domy≈õlnie DATA) przerywa
+po≈ÇƒÖczenie z tymczasowym niepowodzeniem.
 
-Celem tego modu≥u jest udostÍpnienie kana≥u dla spamu na trzecim
-ho∂cie MX.
+Celem tego modu≈Çu jest udostƒôpnienie kana≈Çu dla spamu na trzecim
+ho≈õcie MX.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
