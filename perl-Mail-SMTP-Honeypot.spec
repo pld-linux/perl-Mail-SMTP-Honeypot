@@ -6,7 +6,7 @@
 %define	pdir	Mail
 %define	pnam	SMTP-Honeypot
 Summary:	Mail::SMTP::Honeypot - Dummy mail server
-Summary(pl.UTF-8):   Mail::SMTP::Honeypot - fałszywy serwer poczty
+Summary(pl.UTF-8):	Mail::SMTP::Honeypot - fałszywy serwer poczty
 Name:		perl-Mail-SMTP-Honeypot
 Version:	0.01
 Release:	0.1
