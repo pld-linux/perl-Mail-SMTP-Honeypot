@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define	pdir	Mail
 %define	pnam	SMTP-Honeypot
+%include	/usr/lib/rpm/macros.perl
 Summary:	Mail::SMTP::Honeypot - Dummy mail server
 Summary(pl.UTF-8):	Mail::SMTP::Honeypot - fałszywy serwer poczty
 Name:		perl-Mail-SMTP-Honeypot
@@ -14,6 +14,7 @@ License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	87b75c5d669f2b8ff356e3e114d9a490
+URL:		http://search.cpan.org/dist/Mail-SMTP-Honeypot/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
