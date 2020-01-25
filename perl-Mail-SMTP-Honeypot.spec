@@ -4,7 +4,6 @@
 
 %define	pdir	Mail
 %define	pnam	SMTP-Honeypot
-%include	/usr/lib/rpm/macros.perl
 Summary:	Mail::SMTP::Honeypot - Dummy mail server
 Summary(pl.UTF-8):	Mail::SMTP::Honeypot - fałszywy serwer poczty
 Name:		perl-Mail-SMTP-Honeypot
