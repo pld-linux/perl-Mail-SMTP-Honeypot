@@ -8,7 +8,7 @@ Summary:	Mail::SMTP::Honeypot - Dummy mail server
 Summary(pl.UTF-8):	Mail::SMTP::Honeypot - fałszywy serwer poczty
 Name:		perl-Mail-SMTP-Honeypot
 Version:	0.09
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
